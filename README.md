@@ -20,6 +20,9 @@ brew install \
     zsh-autosuggestions \
     zsh-syntax-highlighting \
     powerlevel10k \
+    swift-format \
+    swiftlint \
+    mise \
 
 ```
 
@@ -45,6 +48,7 @@ brew install --cask \
     font-jetbrains-mono \
     font-google-sans-code \
     font-d2coding \
+    slack \
     
 ```
 
@@ -64,6 +68,12 @@ nvm use --lts
 npm install -g yarn pnpm typescript @types/node
 ```
 
+## Git Settings
+
+```bash
+git config --global user.name "minhaaan"
+git config --global user.email "chmh0411@gmail.com"
+```
 ---
 
 *마지막 업데이트: $(date)*
