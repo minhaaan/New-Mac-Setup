@@ -23,7 +23,7 @@ brew install \
     swift-format \
     swiftlint \
     mise \
-
+    rbenv \
 ```
 
 ## cask download
@@ -49,15 +49,19 @@ brew install --cask \
     font-google-sans-code \
     font-d2coding \
     slack \
-    
+    proxyman \
+
 ```
 
 ## Manual Download
 
 - [Xcodes](https://github.com/XcodesOrg/XcodesApp)
 - [ScreenFloat](https://apps.apple.com/kr/app/screenfloat-pro-screen-capture/id414528154?mt=12ScreenFloat—Pro)
+- Tuist: `mise install tuist`, `mise use tuist@x.y.z`
+- 
 
-### Node.js & NVM 설정
+
+## Node.js & NVM 설정
 ```bash
 # NVM을 사용한 Node.js 설치
 nvm install node
@@ -66,6 +70,17 @@ nvm use --lts
 
 # 전역 패키지 설치
 npm install -g yarn pnpm typescript @types/node
+```
+
+## Ruby
+
+```bash
+# list latest stable versions:
+rbenv install -l
+# install a Ruby version:
+rbenv install 3.1.2
+# set the default Ruby version for this machine
+rbenv global 3.1.2
 ```
 
 ## Git Settings
