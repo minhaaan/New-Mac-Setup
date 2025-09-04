@@ -14,8 +14,6 @@ brew install \
     curl \
     tree \
     zsh \
-    gemini-cli \
-    claude-code \
     git-lfs \
     zsh-autosuggestions \
     zsh-syntax-highlighting \
@@ -39,11 +37,9 @@ brew install --cask \
     discord \
     appcleaner \
     rectangle \
-    alfred \
     karabiner-elements \
     stats \
     raycast \
-    amphetamine \
     fork \
     font-jetbrains-mono \
     font-google-sans-code \
@@ -57,8 +53,9 @@ brew install --cask \
 
 - [Xcodes](https://github.com/XcodesOrg/XcodesApp)
 - [ScreenFloat](https://apps.apple.com/kr/app/screenfloat-pro-screen-capture/id414528154?mt=12ScreenFloat—Pro)
+- [Amphetamine](https://apps.apple.com/kr/app/amphetamine/id937984704?mt=12)
+- [`Amazon` Q](https://docs.aws.amazon.com/ko_kr/amazonq/latest/qdeveloper-ug/command-line-installing.html)
 - Tuist: `mise install tuist`, `mise use tuist@x.y.z`
-- 
 
 
 ## Node.js & NVM 설정
@@ -69,7 +66,7 @@ nvm install --lts
 nvm use --lts
 
 # 전역 패키지 설치
-npm install -g yarn pnpm typescript @types/node
+npm install -g yarn pnpm typescript @types/node @anthropic-ai/claude-code @google/gemini-cli
 ```
 
 ## Ruby
@@ -83,12 +80,28 @@ rbenv install 3.1.2
 rbenv global 3.1.2
 ```
 
+## zsh
+
+```bash
+$ source $(brew --prefix)/share/zsh-autosuggestions/zsh-autosuggestions.zsh
+$ echo "source $(brew --prefix)/share/zsh-syntax-highlighting/zsh-syntax-highlighting.zsh" >> ${ZDOTDIR:-$HOME}/.zshrc
+
+plugins=( 
+    zsh-autosuggestions
+)
+
+alias
+TODO
+```
+
+
 ## Git Settings
 
 ```bash
 git config --global user.name "minhaaan"
 git config --global user.email "chmh0411@gmail.com"
 ```
+
 ---
 
 *마지막 업데이트: $(date)*
