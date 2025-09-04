@@ -23,7 +23,7 @@ brew install \
     swift-format \
     swiftlint \
     mise \
-    rbenv \
+    rbenv
 ```
 
 ## cask download
@@ -49,7 +49,7 @@ brew install --cask \
     font-google-sans-code \
     font-d2coding \
     slack \
-    proxyman \
+    proxyman
 
 ```
 
