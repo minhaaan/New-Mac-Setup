@@ -55,6 +55,7 @@ brew install --cask \
 - [ScreenFloat](https://apps.apple.com/kr/app/screenfloat-pro-screen-capture/id414528154?mt=12ScreenFloat—Pro)
 - [Amphetamine](https://apps.apple.com/kr/app/amphetamine/id937984704?mt=12)
 - [`Amazon` Q](https://docs.aws.amazon.com/ko_kr/amazonq/latest/qdeveloper-ug/command-line-installing.html)
+- [KakaoTalk](https://apps.apple.com/kr/app/kakaotalk/id869223134?mt=12KakaoTalk)
 - Tuist: `mise install tuist`, `mise use tuist@x.y.z`
 
 
